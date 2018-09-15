@@ -1,0 +1,11 @@
+{
+  "name": "11_weatheradmin",
+  "version": "1.0.0",
+  "description": "* Create a command line interface application using Node.js (either with inquirer or process.argv).",
+  "main": "weatherAdmin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "WD",
+  "license": "MIT"
+}
