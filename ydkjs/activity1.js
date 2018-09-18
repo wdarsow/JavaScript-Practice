@@ -1,4 +1,4 @@
-let bankBalance = 600;
+let bankBalance = process.argv[2];
 const taxRate = .0765;
 const phonePrice = 100;
 const accessory = 25;
@@ -41,7 +41,7 @@ function moneyFormat(arg1) {
         formattedPurchPrice = 0;
         purchPhone();
     } else {
-        console.log("Sorry, you don't have enough money to purchase the phone and accessories you selected. Your current bank balance is: " + bankBalance);
+        console.log("Sorry, you don't have enough money to purchase the phone and accessories you selected. Your current bank balance is: " + (Number.parseFloat(bankBalance).toFixed(2)));
     }
 }
 
