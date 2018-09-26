@@ -1,0 +1,1 @@
+console.log("Sriracha logs to the console");
