@@ -28,10 +28,10 @@ switch(operation) {
         break;
 }
 
-let equation = '4x+2=10'
-let split1 = equation.split('=');
-let split2 = split1[0].split('x');
-let split3 = split2[1].split('+')
-console.log('split1 ' + split1);
-console.log('split2 ' + split2);
-console.log('split3 ' + split3);
+// let equation = '4x+2=10'
+// let split1 = equation.split('=');
+// let split2 = split1[0].split('x');
+// let split3 = split2[1].split('+')
+// console.log('split1 ' + split1);
+// console.log('split2 ' + split2);
+// console.log('split3 ' + split3);
